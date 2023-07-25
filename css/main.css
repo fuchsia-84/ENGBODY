@@ -55,6 +55,58 @@ font-family: 'Josefin Sans', sans-serif;
     background: #eb51c2;
 }
 
+/*faq*/
+.accordion {
+    list-style: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.accordion li {
+    margin: 10px 0;
+}
+.accordion section {
+    border-bottom: 1px solid #ccc;
+}
+.accordion h1 {
+    position: relative;
+    cursor: pointer;
+    padding: 3% 3% 3% 50px;
+    transition: all .5s ease;
+}
+.accordion h1 span {
+    position: absolute;
+    right: 15px;
+    color: #eb51c2;
+}
+.accordion h1.close span {
+    transform: scale(1,-1);
+}
+.accordion h1::before {
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: 15px;
+    left: 15px;
+    content: 'Q';
+    color: #eb51c2;
+}
+.accordion .box p {
+    position: relative;
+}
+.accordion .box p::before {
+    position: absolute;
+    content: 'A';
+    color: #eb51c2;
+    left: -50px;
+}
+.box {
+    display: none;
+    margin: 0 3% 3% 3%;
+    padding: 3%;
+}
+.box
+
 /*footer*/
 footer {
     background-color: #000;

@@ -23,6 +23,24 @@ font-family: 'Josefin Sans', sans-serif;
 .pink {
     color: #eb51c2;
 }
+.reg_btn {
+    display: block;
+    width: 220px;
+    font-family: hiragino-kaku-gothic-pron, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px 0;
+    color: #fff;
+    background-color: #eb51c2;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.reverse {
+    color: #eb51c2;
+    background-color: #fff;
+}
 .wave_top {
     display: block;
     width: 100%;
@@ -106,6 +124,27 @@ font-family: 'Josefin Sans', sans-serif;
     display: none;
     margin: 0 3% 3% 3%;
     padding: 3%;
+}
+/*bottom*/
+.bottom {
+    color: #fff;
+    background-color: #eb51c2;
+    text-align: center;
+}
+.bottom h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.bottom img {
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.bottom a {
+    margin: 0 auto;
 }
 /*footer*/
 footer {

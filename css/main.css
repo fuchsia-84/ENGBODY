@@ -56,11 +56,13 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 /*faq*/
+/* To Do: fix font size, padding. margin*/
 .accordion {
     list-style: none;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    padding-left: 0;
 }
 .accordion li {
     margin: 10px 0;
@@ -98,15 +100,13 @@ font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     content: 'A';
     color: #eb51c2;
-    left: -50px;
+    left: 0;
 }
 .box {
     display: none;
     margin: 0 3% 3% 3%;
     padding: 3%;
 }
-.box
-
 /*footer*/
 footer {
     background-color: #000;

@@ -16,3 +16,30 @@ font-family: 'Noto Sans JP', sans-serif;
 /*
 font-family: 'Josefin Sans', sans-serif;
 */
+
+.wave_top {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transform: translateY(1px);
+}
+.wave_top svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    fill: #eb51c2;
+}
+.wave_bottom {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transform: translateY(-1px);
+}
+.wave_bottom svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    fill: #eb51c2;
+}

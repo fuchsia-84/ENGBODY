@@ -43,3 +43,8 @@ font-family: 'Josefin Sans', sans-serif;
     height: auto;
     fill: #eb51c2;
 }
+
+.trainer .inner {
+    display: block;
+    background: #eb51c2;
+}

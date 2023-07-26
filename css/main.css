@@ -67,7 +67,67 @@ font-family: 'Josefin Sans', sans-serif;
     height: auto;
     fill: #eb51c2;
 }
+.inner {
+    display: block;
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.inner::after {
+    content: '';
+    clear: both;
+    display: block;
+}
 
+/*header*/
+header {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: transparent; /*To Do: fixed, #fff*/
+}
+header .inner {
+    position: relative;
+}
+a#header_logo img {
+    display: block;
+    width: 96px;
+    height: 12px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+a#header_link {
+    display: none; /*To Do: fixed, display block*/
+    position: absolute;
+    top: 7.5px;
+    right: 0;
+}
+@media screen and (min-width: 600px) {
+    a#header_link {
+        display: none;
+    }
+}
+/*header fixed*/
+header.fixed {
+    background-color: #fff;
+    animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+/* fadeIn animation*/
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+header.fixed a#header_link {
+    display: block;
+}
 .trainer .inner, .price .inner {
     display: block;
     background: #eb51c2;

@@ -29,6 +29,9 @@ body {
 .pink {
     color: #eb51c2;
 }
+.green {
+    color: #00B21B;
+}
 .br_sp {
     display: block;
 }
@@ -100,6 +103,7 @@ header {
     height: 60px;
     position: fixed;
     background-color: transparent; /*To Do: fixed, #fff*/
+    z-index: 999;
 }
 header .inner {
     position: relative;
@@ -223,6 +227,63 @@ a#top_link {
     line-height: 26px;
     position: absolute;
     top: 547px
+}
+/*about*/
+.about .inner {
+    width: 100%;
+    max-width: 100%;
+}
+.about .item::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.about .item {
+    margin-bottom: 40px;
+}
+.about .item img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 9;
+}
+.about .item_text {
+    display: block;
+    width: calc(100% - 54px);
+    background-color: #fff;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -10px;
+    margin-left: 27px;
+    padding: 39px 30px 72px;
+    border-radius: 8px;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+.about .item:nth-of-type(2) .item_text {
+    padding-bottom: 49px;
+}
+.about .item_text h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: normal;
+}
+.about .item_text h2 {
+    font-size: 22px;
+    line-height: 31.5px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.about .item_text p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 22px;
+}
+a#about_link {
+    padding: 18px 0;
+    width: calc(100% - 40px);
+    margin: 0 auto 40px;
 }
 /*faq*/
 /* To Do: fix font size, padding. margin*/

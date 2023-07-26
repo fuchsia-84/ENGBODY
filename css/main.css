@@ -17,16 +17,29 @@ font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 */
 
+body {
+    font-family: hiragino-kaku-gothic-pron, sans-serif;
+    font-weight: normal;
+    background-color: #fff;
+}
+
 .fff {
     color: #fff;
 }
 .pink {
     color: #eb51c2;
 }
+.br_sp {
+    display: block;
+}
+@media screen and (min-width: 600px) {
+    .br_sp {
+        display: none;
+    }
+}
 .reg_btn {
     display: block;
     width: 220px;
-    font-family: hiragino-kaku-gothic-pron, sans-serif;
     font-size: 13px;
     line-height: 17px;
     font-weight: 700;
@@ -133,6 +146,84 @@ header.fixed a#header_link {
     background: #eb51c2;
 }
 
+/*top*/
+.top {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    min-height: 798px;
+}
+.top .inner {
+    position: relative;
+}
+.top_image {
+    display: block;
+    width: 67.5%;
+    height: 410px;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    z-index: -1;
+}
+.top_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 0 50px;
+}
+.top h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    line-height: 44px;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    top: 161px;
+    background-color: #fff;
+}
+.top_sub {
+    width: 232px;
+    background-color: #fff;
+    position: absolute;
+    top: 259px;
+    font-size: 13px;
+    line-height: 17px;
+}
+a#top_link {
+    position: absolute;
+    top: 293px;
+}
+.top h2 {
+    display: block;
+    width: 274px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 56px;
+    line-height: 57px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 389px;
+    left: calc(50% - 137px);
+}
+.top h3 {
+    width: 250px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 503px;
+    left: calc(50% - 125px);
+    text-align: center;
+}
+.top_text {
+    font-size: 15px;
+    line-height: 26px;
+    position: absolute;
+    top: 547px
+}
 /*faq*/
 /* To Do: fix font size, padding. margin*/
 .accordion {

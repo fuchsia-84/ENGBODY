@@ -94,6 +94,12 @@ body {
     clear: both;
     display: block;
 }
+.wrapper {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #eb51c2;
+}
 
 /*header*/
 header {
@@ -144,10 +150,6 @@ header.fixed {
 }
 header.fixed a#header_link {
     display: block;
-}
-.trainer .inner, .price .inner {
-    display: block;
-    background: #eb51c2;
 }
 
 /*top*/
@@ -285,6 +287,9 @@ a#about_link {
     width: calc(100% - 40px);
     margin: 0 auto 40px;
 }
+
+/*trainer*/
+/*studio*/
 /*faq*/
 /* To Do: fix font size, padding. margin*/
 .accordion {

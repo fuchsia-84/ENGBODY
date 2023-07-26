@@ -100,6 +100,21 @@ body {
     max-width: 100%;
     background-color: #eb51c2;
 }
+.section_title {
+    padding-top: 40px;
+    margin-bottom: 28px;
+}
+.section_title h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: normal;
+}
+.section_title p {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 1px;
+}
 
 /*header*/
 header {

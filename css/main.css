@@ -362,6 +362,8 @@ a#about_link {
     overflow-x: scroll;
     padding-right: 20px;;
 }
+/*To Do: fix scroll bar style and add scroll icon*/
+
 .price .item {
     display: inline-block;
     width: calc(100% - 40px);

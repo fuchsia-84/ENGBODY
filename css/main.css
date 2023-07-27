@@ -313,6 +313,7 @@ a#about_link {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding-left: 0;
     margin-bottom: 20px;
 }
 .tab li {
@@ -333,6 +334,10 @@ a#about_link {
 .area {
     display: none;
     opacity: 0;
+}
+.area ul {
+    margin-left: 0;
+    padding-left: 0;
 }
 .area li {
     display: block;

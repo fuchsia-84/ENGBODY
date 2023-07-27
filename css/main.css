@@ -303,6 +303,9 @@ a#about_link {
     margin: 0 auto 40px;
 }
 /*trainer*/
+.trainer .inner {
+    padding-bottom: 40px;
+}
 .trainer ul {
     list-style: none;
 }
@@ -354,6 +357,8 @@ a#about_link {
     border-radius: 10px 10px 0 0;
 }
 .area li p {
+    font-size: 14px;
+    line-height: 20px;
     background-color: #fff;
     padding: 20px;
     border-radius: 0 0 10px 10px;

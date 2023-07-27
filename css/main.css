@@ -492,12 +492,11 @@ a#about_link {
     background-color: #ccc;
 }
 /*faq*/
-/* To Do: fix font size, padding. margin*/
 .accordion {
     list-style: none;
     width: 100%;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     padding-left: 0;
 }
 .accordion li {
@@ -507,9 +506,12 @@ a#about_link {
     border-bottom: 1px solid #ccc;
 }
 .accordion h1 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
     position: relative;
     cursor: pointer;
-    padding: 3% 3% 3% 50px;
+    padding: 26px 11px 16px 45px;
     transition: all .5s ease;
 }
 .accordion h1 span {
@@ -518,30 +520,42 @@ a#about_link {
     color: #eb51c2;
 }
 .accordion h1.close span {
+    font-size: 11px;
+    line-height: 7px;
     transform: scale(1,-1);
 }
 .accordion h1::before {
     position: absolute;
     width: 15px;
     height: 2px;
-    top: 15px;
-    left: 15px;
+    top: 20px;
+    left: 0;
     content: 'Q';
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    line-height: 27px;
+    font-weight: bold;
     color: #eb51c2;
 }
 .accordion .box p {
+    font-size: 15px;
+    line-height: 23px;
     position: relative;
 }
 .accordion .box p::before {
     position: absolute;
     content: 'A';
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    line-height: 27px;
+    font-weight: bold;
     color: #eb51c2;
-    left: 0;
+    left: -42px;
 }
 .box {
     display: none;
-    margin: 0 3% 3% 3%;
-    padding: 3%;
+    margin: 0;
+    padding: 0 11px 16px 45px;
 }
 /*bottom*/
 .bottom {

@@ -45,7 +45,7 @@ body {
     width: 220px;
     font-size: 13px;
     line-height: 17px;
-    font-weight: 700;
+    font-weight: normal;
     text-align: center;
     padding: 14px 0;
     color: #fff;
@@ -301,6 +301,7 @@ a#about_link {
     padding: 18px 0;
     width: calc(100% - 40px);
     margin: 0 auto 40px;
+    border-radius: 100px;
 }
 /*trainer*/
 .trainer .inner {

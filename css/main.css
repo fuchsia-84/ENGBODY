@@ -252,7 +252,15 @@ a#header_link {
         height: 23px;
         top: 38.5px;
     }
-    /*To Do: fix header link */
+    a#header_link {
+        width: 220px;
+        font-size: 13px;
+        line-height: 17px;
+        padding: 14px 0;
+        border-radius: 20px;
+        top: 22.5px;
+        right: 0;
+    }
 }
 /*header fixed*/
 header.fixed {

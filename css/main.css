@@ -513,10 +513,45 @@ a#about_link {
     display: block;
     white-space: nowrap;
     overflow-x: scroll;
-    padding-right: 20px;;
+    padding-right: 20px;
+    position: relative;
 }
 /*To Do: fix scroll bar style and add scroll icon*/
-
+.price .scroll_right {
+    display: block;
+    width: 80px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 9px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: 211px;
+    border-radius: 4px;
+}
+.scroll_right.fixed {
+    opacity: 0;
+    animation: fadeOut 1s ease 0s 1 normal;
+    -webkit-animation: fadeOut 1s ease 0s 1 normal;
+}
+/* fadeOut animation*/
+@keyframes fadeOut {
+    0% {opacity: 1}
+    100% {opacity: 0}
+}
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0}
+}
+.price .scroll_right span {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+}
 .price .item {
     display: inline-block;
     width: calc(100% - 40px);

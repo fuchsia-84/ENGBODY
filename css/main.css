@@ -681,7 +681,7 @@ a#about_link {
     border-radius: 50%;
 }
 .swiper-wrap {
-    position: relative;;
+    position: relative;
 }
 .swiper-button-prev {
     left: -20px;
@@ -699,6 +699,31 @@ a#about_link {
 }
 .swiper-button-next::after {
     content: '\f054';
+}
+@media screen and (min-width: 1025px) {
+    .studio .inner {
+        padding-bottom: 60px;
+    }
+    .swiper-pagination-bullets {
+        margin-top: 25px;
+    } 
+    .swiper-pagination-bullet {
+        width: 13px !important;
+        height: 13px !important;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        width: 79px;
+        height: 79px;
+    }
+    .swiper-button-prev {
+        left: -39.5px;
+    }
+    .swiper-button-next {
+        right: -39.5px;
+    }
+    .swiper-button-prev::after, .swiper-button-next::after {
+        font-size: 18px;
+    }
 }
 /*price*/
 .price .inner {

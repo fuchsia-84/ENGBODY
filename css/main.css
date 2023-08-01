@@ -904,19 +904,19 @@ a#about_link {
     transition: all .5s ease;
 }
 .accordion h1 span {
+    font-size: 11px;
+    line-height: 7px;
     position: absolute;
     right: 15px;
     color: #eb51c2;
 }
 .accordion h1.close span {
-    font-size: 11px;
-    line-height: 7px;
     transform: scale(1,-1);
 }
 .accordion h1::before {
     position: absolute;
     width: 15px;
-    height: 2px;
+    height: 27px;
     top: 20px;
     left: 0;
     content: 'Q';
@@ -945,6 +945,37 @@ a#about_link {
     display: none;
     margin: 0;
     padding: 0 11px 16px 45px;
+}
+@media screen and (min-width: 1025px) {
+    .accordion {
+        margin: 0 auto 60px;
+    }
+    .accordion li {
+        margin: 10px 0;
+    }
+    .accordion section {
+        border-bottom: 1px solid #ccc;
+    }
+    .accordion h1 {
+        padding: 3px 6px 16px 53.5px;
+    }
+    .accordion h1 span {
+        right: 6px;
+    }
+    .accordion h1::before {
+        top: 0;
+        left: 10px;
+    }
+    .accordion .box p {
+        line-height: 20px;
+    }
+    .accordion .box p::before {
+        top: -6px;
+        left: -42px;
+    }
+    .box {
+        padding: 7px 3px 7px 53.5px;
+    }
 }
 /*bottom*/
 .bottom {

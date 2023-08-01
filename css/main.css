@@ -618,6 +618,45 @@ a#about_link {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
+@media screen and (min-width: 1025px) {
+    .tab li a {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 17px;
+    }
+    .tab li.active a {
+        border-bottom: 2px solid #fff;
+    }
+    .area {
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    .area li {
+        display: inline-block;
+        width: 360px;
+        max-width: 360px;
+        margin: 0 15px 0 0;
+        white-space: normal;
+        vertical-align: top;
+    }
+    .area li:last-of-type {
+        margin-left: 0;
+    }
+    .area li img {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+    }
+    .area li p {
+        font-size: 15px;
+        line-height: 24px;
+        background-color: #fff;
+        padding: 20px 20px 46px 20px;
+    }
+    .area li:last-of-type p {
+        padding-bottom: 20px;
+    }
+}
 /*studio*/
 .swiper-pagination-bullets {
     position: static;

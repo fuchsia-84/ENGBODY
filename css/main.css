@@ -516,7 +516,7 @@ a#about_link {
     padding-right: 20px;
     position: relative;
 }
-/*To Do: fix scroll bar style and add scroll icon*/
+/*To Do: fix scroll bar style*/
 .price .scroll_right {
     display: block;
     width: 80px;

@@ -1073,6 +1073,12 @@ footer a {
     animation: fadeIn 1s ease 0s 1 normal;
     -webkit-animation: fadeIn 1s ease 0s 1 normal;
 }
-.page_top_btn:hover {
-    transform: translateY(4px);
+@media screen and (min-width: 1025px) {
+    .page_top_btn {
+        width: 80px;
+        border-radius: 40px;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 28px 0;
+    }
 }

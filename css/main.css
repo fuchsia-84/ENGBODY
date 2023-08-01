@@ -831,9 +831,53 @@ a#about_link {
     background-color: #ccc;
 }
 @media screen and (min-width: 1025px) {
+    .price .section_title {
+        margin-left: 0;
+    }
     .price .inner {
         width: 79%;
         max-width: 1110px;
+    }
+    .price .scroll_right {
+        display: none;
+        opacity: 0;
+    }
+    .price .price_contents {
+        overflow-x: scroll;
+        font-size: 0;
+    }
+    .price .item {
+        width: 350px;
+        max-width: 350px;
+        padding: 36px 0 27px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .price .item:last-of-type {
+        margin-right: 0;
+    }
+    .price .item h2 {
+        margin-top: 6px;
+    }
+    .price .item h3 {
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    .rental {
+        margin-left: 37px;
+        margin-bottom: 18px;
+    }
+    .shop {
+        margin-bottom: 18px;
+    }
+    .detail {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: -3px;
+        margin-bottom: 17px;
+    }
+    .price .item span {
+        margin: 0 auto 20px;
     }
 }
 /*faq*/

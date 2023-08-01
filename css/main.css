@@ -478,6 +478,58 @@ a#about_link {
     margin: 0 auto 40px;
     border-radius: 100px;
 }
+@media screen and (min-width: 1025px) {
+    a#about_link {
+        display: none;
+    }
+    .about .item {
+        margin-bottom: 80px;
+    }
+    .about .item:nth-of-type(2) {
+        margin-bottom: 60px;
+    }
+    .about .item img {
+        width: 950px;
+    }
+    .about .item .item_text {
+        width: 555px;
+        margin-top: -475px;
+        margin-right: 20px;
+        padding: 60px;
+        box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.1);
+    }
+    .about .item:nth-of-type(2) .item_text {
+        margin-top: -426px;
+        padding-bottom: 60px;
+    }
+    .about .item_text h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .about .item_text h2 {
+        font-size: 32px;
+        line-height: 47px;
+        font-weight: bold;
+    }
+    .about .item_text p {
+        font-size: 16px;
+        line-height: 28.25px;
+        margin-top: 16px;
+        letter-spacing: 0.1em;
+    }
+    .about .item:nth-of-type(odd) img {
+        float: left;
+    }
+    .about .item:nth-of-type(odd) .item_text {
+        float: right;
+    }
+    .about .item:nth-of-type(even) img {
+        float: right;
+    }
+    .about .item:nth-of-type(even) .item_text {
+        float: left;
+    }
+}
 /*trainer*/
 .trainer .inner {
     padding-bottom: 40px;

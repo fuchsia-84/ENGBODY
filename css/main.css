@@ -139,6 +139,15 @@ body {
     text-decoration: none;
     border-radius: 20px;
 }
+@media screen and (min-width: 1025px) {
+    .reg_btn {
+        width: 370px;
+        font-size: 20px;
+        line-height: 29px;
+        padding: 30px 0;
+        border-radius: 50px;
+    }
+}
 .reverse {
     color: #eb51c2;
     background-color: #fff;
@@ -233,6 +242,17 @@ a#header_link {
     a#header_link {
         display: none;
     }
+}
+@media screen and (min-width: 1025px) {
+    #header {
+        height: 90px;
+    }
+    a#header_logo img {
+        width: 180px;
+        height: 23px;
+        top: 38.5px;
+    }
+    /*To Do: fix header link */
 }
 /*header fixed*/
 header.fixed {
@@ -330,6 +350,56 @@ a#top_link {
     line-height: 26px;
     position: absolute;
     top: 547px
+}
+@media screen and (min-width: 1025px) {
+    .top {
+        min-height: 1017px;
+        max-height: 1017px;
+    }
+    .top_image {
+        height: 680px;
+        position: absolute;
+        right: -20px;
+    }
+    .top_image img {
+        border-radius: 0 0 0 90px;
+    }
+    .top h1 {
+        font-size: 90px;
+        line-height: 93px;
+        top: 220px;
+    }
+    .top_sub {
+        width: 476px;
+        top: 425px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    a#top_link {
+        top: 496px;
+    }
+    .top h2 {
+        width: 901px;
+        font-size: 108px;
+        line-height: 110px;
+        top: 657px;
+        left: calc(50% - 450.5px);
+    }
+    .top h3 {
+        width: 500px;
+        font-size: 32px;
+        line-height: 46px;
+        top: 768px;
+        left: calc(50% - 250px);
+        font-weight: bold;
+    }
+    .top_text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 30.4px;
+        top: 835px;
+        text-align: center;
+    }
 }
 /*about*/
 .about .inner {

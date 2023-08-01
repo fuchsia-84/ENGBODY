@@ -1019,7 +1019,8 @@ a#about_link {
         font-weight: normal;
     }
     .bottom a {
-        padding: 26.5px 0;
+        line-height: 29px;
+        padding: 25.5px 0;
         width: 360px;
         max-width: 360px;
         border-radius: 100px;
@@ -1039,6 +1040,14 @@ footer a {
     width: 87px;
     height: auto;
     margin: 0 auto;
+}
+@media screen and (min-width: 1025px) {
+    footer .inner {
+        padding: 100px 0;
+    }
+    footer a {
+        width: 180px;
+    }
 }
 /*page top button*/
 .page_top_btn {

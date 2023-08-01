@@ -1,6 +1,8 @@
 $(function(){
-    // #で始まるアンカーをクリックした場合に処理
-    $('a[href^="#"]').click(function() {
+    var $page_top_btn = $('.page_top_btn');
+
+    // ページトップボタンをクリックした場合に処理
+    $page_top_btn.click(function() {
        // スクロールの速度
        var speed = 1500; // ミリ秒
        // アンカーの値取得

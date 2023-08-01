@@ -670,10 +670,38 @@ footer {
 }
 footer .inner {
     padding: 50px 0;
+    position: relative;
 }
 footer a {
     display: block;
     width: 87px;
     height: auto;
     margin: 0 auto;
+}
+/*page top button*/
+.page_top_btn {
+    display: none;
+    width: 40px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 7px;
+    line-height: 7px;
+    padding: 16.5px 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fff;
+    color: #EB51C2;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 950;
+}
+.page_top_btn.fixed {
+    display: block;
+    animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+.page_top_btn:hover {
+    transform: translateY(4px);
 }

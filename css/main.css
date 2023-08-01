@@ -843,18 +843,17 @@ a#about_link {
         opacity: 0;
     }
     .price .price_contents {
-        overflow-x: scroll;
-        font-size: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-right: 0;
+        column-gap: 15px;
+        overflow-x: visible;
     }
     .price .item {
-        width: 350px;
+        width: auto;
         max-width: 350px;
         padding: 36px 0 27px;
         margin: 0;
-        margin-right: 30px;
-    }
-    .price .item:last-of-type {
-        margin-right: 0;
     }
     .price .item h2 {
         margin-top: 6px;

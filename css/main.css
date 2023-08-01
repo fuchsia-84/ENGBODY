@@ -74,7 +74,7 @@ body {
     height: 87px;
     position: absolute;
     top: 160px;
-    left: 0;
+    left: 165px;
     z-index: 5;
     animation-name: bgextendAnime;
     animation-duration: 1s;
@@ -92,6 +92,14 @@ body {
     animation-name: bgLeftAnime;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+@media screen and (min-width: 1025px) {
+    .bgextend {
+        display: block;
+        width: 456.35px;
+        height: 186px;
+        top: 220px;
+    }
 }
 @keyframes bgextendAnime {
     from {
@@ -376,15 +384,18 @@ a#top_link {
         font-size: 90px;
         line-height: 93px;
         top: 220px;
+        left: 165px;
     }
     .top_sub {
         width: 476px;
         top: 425px;
+        left: 165px;
         font-size: 28px;
         line-height: 40px;
     }
     a#top_link {
         top: 496px;
+        left: 165px;
     }
     .top h2 {
         width: 901px;

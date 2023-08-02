@@ -18,6 +18,8 @@ Web上で配布された制作課題を元に、<u>**英会話とパーソナル
 - 制作者さまTwitter: [ねこポン@webdesigner_go さん](https://twitter.com/webdesigner_go)
 
 ## 成果物
+  
+<img width="783" alt="ENGBODY_icatch" src="https://github.com/fuchsia-84/ENGBODY/assets/46129202/ab9b75e9-1d17-4c8a-9b94-cd31cfca136b">
 
 - <u>**レスポンシブ対応**</u>: PC版・タブレット版・SP版と、画面幅に対応してレイアウトが変化します。
 

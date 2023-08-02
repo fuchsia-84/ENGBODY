@@ -16,6 +16,23 @@ body {
 .green {
     color: #00B21B;
 }
+.recommend::after {
+    display: block;
+    content: 'オススメ！';
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -22.5px;
+    left: calc(50% - 128px);
+    width: 256px;
+    padding: 7.5px 0;
+    color: #EB51C2;
+    background-color: #fff;
+    border: 2px solid #EB51C2;
+    border-radius: 70px;
+}
 /*fade up animation*/
 .fadeUp {
     animation-name:fadeUpAnime;
@@ -731,6 +748,7 @@ a#about_link {
     white-space: nowrap;
     overflow-x: scroll;
     padding-right: 20px;
+    padding-top: 22.5px;
     position: relative;
 }
 /*To Do: fix scroll bar style*/
@@ -779,6 +797,7 @@ a#about_link {
     border-radius: 10px;
     vertical-align: top;
     margin-left: 20px;
+    position: relative;
 }
 .price .item h1 {
     font-size: 26px;

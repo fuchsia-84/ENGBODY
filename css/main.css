@@ -500,28 +500,39 @@ a#about_link {
     border-radius: 100px;
 }
 @media screen and (min-width: 1025px) {
+    .about .inner {
+        width: 100%;
+        max-width: 1110px;
+    }
     a#about_link {
         display: none;
     }
     .about .item {
         margin-bottom: 80px;
+        position: relative;
     }
     .about .item:nth-of-type(2) {
         margin-bottom: 60px;
     }
     .about .item img {
         width: 950px;
+        max-width: 950px;
     }
     .about .item .item_text {
         width: 555px;
-        margin-top: -475px;
-        margin-right: 20px;
+        position: absolute;
+        margin: 0;
         padding: 60px;
         box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.1);
     }
+    .about .item:nth-of-type(1) .item_text {
+        top: 75px;
+        right: 20px;
+    }
     .about .item:nth-of-type(2) .item_text {
-        margin-top: -426px;
         padding-bottom: 60px;
+        top: 124px;
+        left: 20px;
     }
     .about .item_text h1 {
         font-size: 24px;
@@ -541,14 +552,8 @@ a#about_link {
     .about .item:nth-of-type(odd) img {
         float: left;
     }
-    .about .item:nth-of-type(odd) .item_text {
-        float: right;
-    }
     .about .item:nth-of-type(even) img {
         float: right;
-    }
-    .about .item:nth-of-type(even) .item_text {
-        float: left;
     }
 }
 /*trainer*/

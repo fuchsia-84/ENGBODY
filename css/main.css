@@ -746,7 +746,6 @@ a#about_link {
     }
 }
 /*price*/
-/*To DO: add recommend icon to center content*/
 .price .inner {
     width: 100%;
     max-width: 100%;
@@ -762,6 +761,13 @@ a#about_link {
     padding-right: 20px;
     padding-top: 22.5px;
     position: relative;
+}
+.price_contents::-webkit-scrollbar {
+    height: 6px;
+    background: rgba(255,255,255,0.2);
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
 }
 /*To Do: fix scroll bar style*/
 .price .scroll_right {

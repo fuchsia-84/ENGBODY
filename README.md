@@ -53,3 +53,8 @@ Web上で配布された制作課題を元に、<u>**英会話とパーソナル
 ## 参考(使用ツール等)
 
 - [Modern CSS Reset / Global Styles](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [Google Fonts](https://fonts.google.com/)
+- [Adobe Fonts](https://fonts.adobe.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Swiper](https://swiperjs.com/)
+

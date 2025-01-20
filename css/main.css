@@ -372,6 +372,7 @@ a#top_link {
     position: absolute;
     top: 389px;
     left: 0;
+    text-transform: uppercase;
 }
 .top h3 {
     width: 100%;
